@@ -1,5 +1,5 @@
 # las-r's languages
-Exhaustive lists of all programming languages and CPU architectures / ISAs I have designed and implemented.
+An exhaustive index of all programming languages and CPU architectures / ISAs I have designed and implemented.
 
 Older projects are lower in each section, while newer ones are higher.
 
