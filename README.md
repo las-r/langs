@@ -16,9 +16,9 @@ Older projects are lower in each section, while newer ones are higher.
 
 ### interpreted
 - [micro](https://github.com/las-r/micro), Sep 2026
+- - [Erwin](https://github.com/las-r/erwin), May 2026
 - [Aergia](https://github.com/las-r/aergia), Apr 2026
 - [Pupil](https://github.com/las-r/pupil), Apr 2025
-- [Erwin](https://github.com/las-r/erwin), May 2026
 
 ## esoteric software languages
 ### stack-oriented
