@@ -3,6 +3,13 @@ An exhaustive index of all programming languages and CPU architectures / ISAs I 
 
 Older projects are lower in each section, while newer ones are higher.
 
+## low-level architectures
+### misc
+- [COIN](https://github.com/las-r/coin), Sep 2026
+- [Xi](https://github.com/las-r/xi), Jul 2026
+### fantasy console
+- [Mercury](https://github.com/las-r/mercury), Jun 2026
+
 ## standard software languages
 ### compiled
 - [CALM](https://github.com/las-r/calm), Sep 2026
@@ -29,11 +36,6 @@ Older projects are lower in each section, while newer ones are higher.
 ### imperative
 - [Menn](https://esolangs.org/wiki/Menn), Feb 2026
 - [Enn](https://esolangs.org/wiki/Enn), Feb 2026
-
-## low-level architectures
-- [COIN](https://github.com/las-r/coin), Sep 2026
-- [Xi](https://github.com/las-r/xi), Jul 2026
-- [Mercury](https://github.com/las-r/mercury), Jun 2026
 
 ## educational languages
 - [CMPLEx](https://github.com/las-r/simpl/blob/main/cmplex/SPEC.md), May 2026
