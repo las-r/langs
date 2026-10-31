@@ -3,13 +3,6 @@ An exhaustive index of all programming languages and CPU architectures / ISAs I 
 
 Older projects are lower in each section, while newer ones are higher.
 
-## low-level architectures
-### misc
-- [COIN](https://github.com/las-r/coin), Sep 2026
-- [Xi](https://github.com/las-r/xi), Jul 2026
-### fantasy console
-- [Mercury](https://github.com/las-r/mercury), Jun 2026
-
 ## standard software languages
 ### compiled
 - *[Plain](https://github.com/las-r/plain), Oct 2026 (WIP)*
@@ -23,6 +16,13 @@ Older projects are lower in each section, while newer ones are higher.
 - [Erwin](https://github.com/las-r/erwin), May 2026
 - [Aergia](https://github.com/las-r/aergia), Apr 2026
 - [Pupil](https://github.com/las-r/pupil), Apr 2025
+
+## low-level architectures
+### misc
+- [COIN](https://github.com/las-r/coin), Sep 2026
+- [Xi](https://github.com/las-r/xi), Jul 2026
+### fantasy console
+- [Mercury](https://github.com/las-r/mercury), Jun 2026
 
 ## esoteric software languages
 ### stack-oriented
