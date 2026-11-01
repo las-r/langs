@@ -4,12 +4,10 @@ An exhaustive index of all programming languages and CPU architectures / ISAs I 
 Older projects are lower in each section, while newer ones are higher.
 
 ## standard software languages
-### compiled
-- *[Plain](https://github.com/las-r/plain), Oct 2026 (WIP)*
-- *[Sylo](https://github.com/las-r/sylo), Oct 2026 (WIP)*
-- [CALM](https://github.com/las-r/calm), Sep 2026
+### interpreted (bytecode)
+- [microbe](https://github.com/las-r/microbe), Oct 2026
 
-### interpreted
+### interpreted (tree-walker)
 - [minim](https://github.com/las-r/minim), Oct 2026
 - [micro](https://github.com/las-r/micro), Sep 2026
 - *[Eulera](https://github.com/las-r/eulera), Aug 2026 (WIP)*
@@ -17,12 +15,10 @@ Older projects are lower in each section, while newer ones are higher.
 - [Aergia](https://github.com/las-r/aergia), Apr 2026
 - [Pupil](https://github.com/las-r/pupil), Apr 2025
 
-## low-level architectures
-### misc
-- [COIN](https://github.com/las-r/coin), Sep 2026
-- [Xi](https://github.com/las-r/xi), Jul 2026
-### fantasy console
-- [Mercury](https://github.com/las-r/mercury), Jun 2026
+### compiled
+- *[Plain](https://github.com/las-r/plain), Oct 2026 (WIP)*
+- *[Sylo](https://github.com/las-r/sylo), Oct 2026 (WIP)*
+- [CALM](https://github.com/las-r/calm), Sep 2026
 
 ## esoteric software languages
 ### stack-oriented
@@ -42,3 +38,10 @@ Older projects are lower in each section, while newer ones are higher.
 ## educational languages
 - [CMPLEx](https://github.com/las-r/simpl/blob/main/cmplex/SPEC.md), May 2026
 - [SIMPL](https://github.com/las-r/simpl/blob/main/simpl/SPEC.md), May 2026
+
+## low-level architectures
+### misc
+- [COIN](https://github.com/las-r/coin), Sep 2026
+- [Xi](https://github.com/las-r/xi), Jul 2026
+### fantasy console
+- [Mercury](https://github.com/las-r/mercury), Jun 2026
