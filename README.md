@@ -1,47 +1,4 @@
 # las-r's languages
-An exhaustive index of all programming languages and CPU architectures / ISAs I have designed and implemented.
+An exhaustive index of all programming languages, CPU architectures, and ISAs I have designed and implemented.
 
-Older projects are lower in each section, while newer ones are higher.
-
-## standard software languages
-### interpreted (bytecode)
-- [microbe](https://github.com/las-r/microbe), Oct 2026
-
-### interpreted (tree-walker)
-- [minim](https://github.com/las-r/minim), Oct 2026
-- [micro](https://github.com/las-r/micro), Sep 2026
-- *[Eulera](https://github.com/las-r/eulera), Aug 2026 (WIP)*
-- [Erwin](https://github.com/las-r/erwin), May 2026
-- [Aergia](https://github.com/las-r/aergia), Apr 2026
-- [Pupil](https://github.com/las-r/pupil), Apr 2025
-
-### compiled
-- *[Plain](https://github.com/las-r/plain), Oct 2026 (WIP)*
-- *[Sylo](https://github.com/las-r/sylo), Oct 2026 (WIP)*
-- [CALM](https://github.com/las-r/calm), Sep 2026
-
-## esoteric software languages
-### stack-oriented
-- [Tact](https://esolangs.org/wiki/Tact), Sep 2026
-- [PRIDE](https://esolangs.org/wiki/Pride), May 2026
-
-### tape-oriented
-- [Falafel](https://esolangs.org/wiki/Falafel), Jul 2026
-- [ENVY](https://esolangs.org/wiki/Envy), May 2026
-- [Senn](https://esolangs.org/wiki/Senn), Feb 2026
-- [GREED](https://esolangs.org/wiki/Greed), May 2025
-
-### imperative
-- [Menn](https://esolangs.org/wiki/Menn), Feb 2026
-- [Enn](https://esolangs.org/wiki/Enn), Feb 2026
-
-## educational languages
-- [CMPLEx](https://github.com/las-r/simpl/blob/main/cmplex/SPEC.md), May 2026
-- [SIMPL](https://github.com/las-r/simpl/blob/main/simpl/SPEC.md), May 2026
-
-## low-level architectures
-### misc
-- [COIN](https://github.com/las-r/coin), Sep 2026
-- [Xi](https://github.com/las-r/xi), Jul 2026
-### fantasy console
-- [Mercury](https://github.com/las-r/mercury), Jun 2026
+You can find the index [here](https://las-r.dev/langs/).

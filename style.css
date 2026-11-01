@@ -1,0 +1,245 @@
+/* theme */
+:root {
+    color-scheme: dark;
+
+    --bg: #1a1a1a;
+    --surface: #222222;
+    --text: #ececf1;
+    --muted: #9a9aa6;
+    --faint: #6c6c78;
+    --accent: #adadff;
+    --accent-2: #dfadff;
+    --border: #333338;
+
+    --mono: monospace;
+}
+
+* { box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 0.92rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+    background: rgba(173, 173, 255, 0.28);
+    color: #ffffff;
+}
+
+/* layout */
+main, header, footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* type */
+h1, h2, h3, h4 {
+    color: var(--text);
+    line-height: 1.3;
+    text-wrap: balance;
+}
+
+h1 {
+    margin: 0 0 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    margin: 3.25rem 0 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+}
+
+h3 {
+    margin: 2rem 0 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+}
+
+h4 {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--muted);
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+strong { font-weight: 600; }
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+}
+
+.muted { color: var(--muted); }
+
+/* links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+a:visited { color: var(--accent-2); }
+
+a:hover,
+a:visited:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: var(--faint);
+    text-underline-offset: 0.25em;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+/* homepage */
+.intro {
+    max-width: 80ch;
+    color: var(--muted);
+}
+
+h1 + .intro {
+    color: var(--text);
+    font-size: 1rem;
+}
+
+.links {
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+
+main > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    filter: invert(1) hue-rotate(180deg);
+    opacity: 0.9;
+}
+
+/* languages index */
+.lang-list {
+    list-style: none;
+    margin: 0 0 0.5rem;
+    padding: 0;
+}
+
+.lang {
+    padding: 0.7rem 0;
+    border-bottom: 1px dashed var(--border);
+    line-height: 1.55;
+}
+
+.lang:last-child {
+    border-bottom: 0;
+}
+
+/* date column */
+.lang > strong:first-child {
+    display: inline-block;
+    min-width: 10ch;
+    color: var(--faint);
+    font-weight: 400;
+}
+
+/* name */
+.lang > strong:nth-of-type(2) {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.lang br { display: none; }
+
+.desc {
+    display: block;
+    margin-top: 0.2rem;
+    padding-left: 13ch;
+    color: var(--muted);
+    font-style: italic;
+}
+
+/* status tags */
+.tag {
+    display: inline-block;
+    padding: 0 0.45rem;
+    border-radius: 3px;
+    background: color-mix(in srgb, currentColor 14%, transparent);
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    vertical-align: 0.05em;
+}
+
+.tag.wip { color: #ffd37a; }
+
+.tag.abandoned {
+    color: var(--muted);
+}
+
+/* footer */
+footer {
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--faint);
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+footer a { color: var(--muted); }
+
+footer a:hover { color: #ffffff; }
+
+/* small screens */
+@media (max-width: 560px) {
+    body { font-size: 0.88rem; }
+
+    main { padding-top: 2.5rem; }
+
+    main, header, footer {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+
+    h1 { font-size: 1.5rem; }
+
+    .desc { padding-left: 0; }
+}
