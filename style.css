@@ -206,11 +206,11 @@ main > img {
     vertical-align: 0.05em;
 }
 
-.tag.wip { color: #ffd37a; }
+.tag.wip { color: #ffdd99; }
 
-.tag.abandoned {
-    color: var(--muted);
-}
+.tag.abandoned { color: #707070; }
+
+.tag.educational { color: #70a570; }
 
 /* footer */
 footer {
