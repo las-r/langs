@@ -211,6 +211,8 @@ main > img {
 
 .tag.educational { color: #70a570; }
 
+.tag.onhold { color: #ccbe91; }
+
 /* footer */
 footer {
     margin-top: 4rem;
